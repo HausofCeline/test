@@ -1,0 +1,9 @@
+function Ball(r) {
+    this.radius = r; 
+    this.area = pi*r**2;
+    this.show = function(){ 
+        drawCircle(r); 
+    }
+}
+myBall = new Ball(5);
+myBall.show(); 
